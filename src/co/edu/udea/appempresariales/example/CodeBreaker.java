@@ -1,9 +1,6 @@
 package co.edu.udea.appempresariales.example;
 
-import java.util.HashSet;
-import java.util.Set;
-
-import javax.swing.text.StyledEditorKit.BoldAction;
+// ESta clase es la encargada de comparar los numeros
 
 public class CodeBreaker 
 {
@@ -50,11 +47,6 @@ public class CodeBreaker
 		catch(NumberFormatException nufoex)
 		{
 			return false;
-		}	
-		
-	}
-	
-	
-	
-	
+		}		
+	}	
 }
